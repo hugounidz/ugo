@@ -1,6 +1,6 @@
 import { supabase } from "@/lib/supabase";
 import { Note } from "../domain/note.interface";
-
+//comentario
 
 export async function getNotes(): Promise<Note[]> {
     const { data } = await supabase
